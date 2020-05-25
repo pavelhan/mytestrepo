@@ -30,10 +30,6 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=3688806C-C1D7-41B8-858C-DB2CB1893B6B
-VaultGUID=F216FD4E-A24C-47E6-8532-B8928721E21D
-ReleaseVaultName=GitHubTests
-ItemGUID=3688806C-C1D7-41B8-858C-DB2CB1893B6B
 IncludeDesignInRelease=0
 
 [Preferences]
