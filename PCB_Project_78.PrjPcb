@@ -30,7 +30,10 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=
+ManagedProjectGUID=78325AC4-F014-432E-8CB4-2A9E688CB5CB
+VaultGUID=1E554183-6E2B-44F8-B2ED-6B356B5D0E17
+ReleaseVaultName=1US East Performance tests
+ItemGUID=78325AC4-F014-432E-8CB4-2A9E688CB5CB
 Template=dxp://VaultExplorer:Navigate_URL?VaultGUID=C98B04E9-0021-460F-BF14-EB39E3D477B9&ItemGUID=9EFAF485-62FF-4F51-B6AB-B556037EF6BA&RevisionGUID=30083B17-99FD-47C8-A7B6-2389CEF90665&MainFilename=PCB_Project1.PrjPCB
 IncludeDesignInRelease=0
 
