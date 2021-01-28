@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Assembly.OutJob
 Description=
-TargetOutputMedium=Assembly Drawing
+TargetOutputMedium=Bill Of Materials xls
 VariantName=[No Variations]
-VariantScope=0
+VariantScope=2
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=\\KIVCORPDC02\Canon MF247dw (Kyiv Office)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print To \\CLDFS01\Supply Room B&W
 OutputMedium1_Type=Printer
@@ -42,7 +42,7 @@ OutputName1=Assembly Drawings
 OutputCategory1=Assembly
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
@@ -82,7 +82,7 @@ OutputEnabled2_OutputMedium5=1
 OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True
+Configuration2_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|DocumentPath=F:\GitHub\mytestrepo\PCB1.PcbDoc
 OutputType3=Test Points For Assembly
 OutputName3=Test Point Report
 OutputCategory3=Assembly
@@ -97,7 +97,7 @@ OutputEnabled3_OutputMedium5=2
 OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=False|AssyGenerateIPCFormat=False|AssyGenerateSpreadSheetFormat=True|AssyGenerateTextFormat=True|AssyOutlineLayer=56|AssyOutputAdjancencies=False|AssyOutputBoardOutline=False|AssyOutputTraces=False|AssyReportBottomLayerTestpoints=True|AssyReportTopLayerTestpoints=True|AssyUnits=Imperial|Record=TestPointView
+Configuration3_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=False|AssyGenerateIPCFormat=False|AssyGenerateSpreadSheetFormat=True|AssyGenerateTextFormat=True|AssyOutlineLayer=56|AssyOutputAdjancencies=False|AssyOutputBoardOutline=False|AssyOutputTraces=False|AssyReportBottomLayerTestpoints=True|AssyReportTopLayerTestpoints=True|AssyUnits=Imperial|Record=TestPointView|DocumentPath=F:\GitHub\mytestrepo\PCB1.PcbDoc
 OutputType4=BOM_PartType
 OutputName4=Bill of Materials
 OutputCategory4=Report
@@ -109,7 +109,7 @@ OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=1
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
-OutputEnabled4_OutputMedium6=1
+OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration4_Name1=ColumnNameFormat
@@ -138,7 +138,22 @@ OutputEnabled5_OutputMedium5=3
 OutputEnabled5_OutputMedium6=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=False|AssyGenerateIPCFormat=True|AssyGenerateSpreadSheetFormat=True|AssyGenerateTextFormat=False|AssyOutlineLayer=56|AssyOutputAdjancencies=True|AssyOutputBoardOutline=True|AssyOutputTraces=False|AssyReportBottomLayerTestpoints=True|AssyReportTopLayerTestpoints=True|AssyUnits=Imperial|Record=TestPointView
+Configuration5_Item1=AssyAdjacencyDistance=250000|AssyGenerateCSVFormat=False|AssyGenerateIPCFormat=True|AssyGenerateSpreadSheetFormat=True|AssyGenerateTextFormat=False|AssyOutlineLayer=56|AssyOutputAdjancencies=True|AssyOutputBoardOutline=True|AssyOutputTraces=False|AssyReportBottomLayerTestpoints=True|AssyReportTopLayerTestpoints=True|AssyUnits=Imperial|Record=TestPointView|DocumentPath=F:\GitHub\mytestrepo\PCB1.PcbDoc
+OutputType6=Save As/Export Schematic
+OutputName6=Save As/Export Schematic
+OutputCategory6=Export
+OutputDocumentPath6=Sheet1.SchDoc
+OutputVariantName6=
+OutputEnabled6=1
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=1
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=Record=UniExporterView|DocumentPath=F:\GitHub\mytestrepo\Sheet1.SchDoc
 
 [PublishSettings]
 OutputFilePath2=C:\Users\chris.carlson\Desktop\New Vault Working\Altium Designer Template\Project Template\Project Outputs\Assembly\
@@ -221,7 +236,7 @@ WebOutputMediumType4=FS
 OutputDirectory4=C:\Users\Public\Documents\Altium\Size B Template\Manufacturing Documentation\Assembly\
 OutputFilePath5=C:\Users\chris.carlson\Desktop\New Vault Working\Altium Designer Template\Project Template\Project Outputs\Assembly\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs
+OutputBasePath5=
 OutputPathMedia5=Assembly
 OutputPathMediaValue5=Assembly
 OutputPathOutputer5=[Output Type]
@@ -232,7 +247,7 @@ OutputFileNameMulti5==PCB_PART_NUMBER
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=1
-OutputFilePath6=C:\Users\chris.carlson\Desktop\New Vault Working\Altium Designer Template\Project Template\Project Outputs\Assembly\
+OutputFilePath6=F:\GitHub\mytestrepo\Project Outputs\Assembly\
 ReleaseManaged6=1
 OutputBasePath6=Project Outputs
 OutputPathMedia6=Assembly
@@ -263,7 +278,7 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
-RelativeOutputPath6=C:\Users\chris.carlson\Desktop\New Vault Working\Altium Designer Template\Project Template\Project Outputs\Assembly\
+RelativeOutputPath6=F:\GitHub\mytestrepo\Project Outputs\Assembly\
 OpenOutputs6=1
 AddToProject6=1
 TimestampFolder6=0
