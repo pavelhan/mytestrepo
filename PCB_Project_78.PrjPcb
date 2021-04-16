@@ -32,7 +32,10 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=Project Outputs
 LogFolderPath=..\Panel Templates\Project Logs
-ManagedProjectGUID=
+ManagedProjectGUID=2DD5F580-28AD-4E7D-B59A-D34E55D1FDF6
+VaultGUID=A808D23F-86B7-4927-8854-8C4B5BCC516E
+ReleaseVaultName=VCS Migration Demo
+ItemGUID=2DD5F580-28AD-4E7D-B59A-D34E55D1FDF6
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -43,7 +46,7 @@ PrefsRevisionGUID=
 ReleaseTarget=3
 
 [Document1]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=..\Teemp\Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -57,10 +60,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CJHNTGTK
+DocumentUniqueId=
 
 [Document2]
-DocumentPath=Assembly.OutJob
+DocumentPath=..\Teemp\Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -77,7 +80,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=Documentation.OutJob
+DocumentPath=..\Teemp\Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -94,7 +97,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=Fabrication.OutJob
+DocumentPath=..\Teemp\PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -111,24 +114,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=PCB1.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RJHOKYIJ
-
-[Document6]
-DocumentPath=ActiveBOM.BomDoc
+DocumentPath=..\Teemp\Sheet1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -228,7 +214,7 @@ Value=A
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=A10A685C-4B77-474C-A827-E53692629CA8
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
@@ -238,7 +224,7 @@ ConfigurationType=Source
 Name=Fabrication
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=523BBF28-9AF3-4988-A110-9EA443D407A3
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -250,7 +236,7 @@ ConfigurationType=Fabrication
 Name=Assembly
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=E2347582-35FF-4330-B73F-9C30152858BA
+ReleaseItemId=
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
